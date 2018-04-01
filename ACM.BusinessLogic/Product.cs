@@ -22,6 +22,8 @@ namespace ACM.BusinessLogic
             _prodName = pName; 
             
         }
+        
+        // Add some more methods here.
 
     }
 }
