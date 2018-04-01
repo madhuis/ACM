@@ -11,7 +11,7 @@ namespace ACM.BusinessLogic
         public int _prodID;
         public Product()
         {
-            // Default constructor
+            //Default constructor
         }
         
         // Add a constructor with a parameter.
