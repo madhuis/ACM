@@ -8,6 +8,11 @@ namespace ACM.BusinessLogic
 {
     class Product
     {
+        public Product()
+        {
+            // Default constructor
+        }
+
 
     }
 }
