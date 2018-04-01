@@ -12,6 +12,8 @@ namespace ACM.BusinessLogic
         {
             // Default constructor
         }
+        
+        // Add a constructor with a parameter.
 
 
     }
