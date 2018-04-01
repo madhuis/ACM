@@ -8,6 +8,19 @@ namespace ACM.BusinessLogic
 {
     public class Customer
     {
+
+        public Customer()
+        {
+
+                
+        }
+
+        public Customer(int custID)
+        {
+            this.CustomerID = custID;
+        }
+
+
         private string _lastName;
 
         public string LastName
@@ -56,6 +69,8 @@ namespace ACM.BusinessLogic
         // methods
         /*
          * 1. Saves the current customer
+         * 2. Retrive the customers - we used the method overloading concepts.
+         * 
          */ 
         public bool save()
         {
@@ -63,6 +78,17 @@ namespace ACM.BusinessLogic
             return true; 
         }
 
+        public Customer Retrieve(int customerID)
+        {
+            // Code will be added later
+            return new Customer(); 
+        }
+
+        public List<Customer> Retrieve()
+        {
+            // Code will be added later
+            return new List<Customer>();
+        }
         public bool validate()
         {
 
