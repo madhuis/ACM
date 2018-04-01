@@ -30,24 +30,8 @@ namespace ACM.BusinessLogic
 
         public string ProductName { get; set; }
 
-        public bool save()
-        {
-            // we are going to define the code little letter.
-            return true;
-        }
-
-        public Product Retrieve(int ProdID)
-        {
-            // Code will be added later
-            return new Product();
-        }
-
-        public List<Product> Retrieve()
-        {
-            // Code will be added later
-            return new List<Product>();
-        }
-        public bool validate()
+      
+        public bool Validate()
         {
 
             var isValid = true;

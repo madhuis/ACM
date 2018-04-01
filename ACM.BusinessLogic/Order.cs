@@ -20,16 +20,7 @@ namespace ACM.BusinessLogic
 
         public DateTimeOffset? OrderDate { get; set; }
 
-        // Retrieve the order
-        public Order Retrieve(int orderID)
-        {
-            return new Order();
-        }
-
-        public bool Save()
-        {
-            return true;
-        }
+       
 
         public bool Validate()
         {

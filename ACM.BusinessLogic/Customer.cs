@@ -66,29 +66,7 @@ namespace ACM.BusinessLogic
 
         public static int instanceCount { get; set; }
 
-        // methods
-        /*
-         * 1. Saves the current customer
-         * 2. Retrive the customers - we used the method overloading concepts.
-         * 
-         */ 
-        public bool save()
-        {
-            // we are going to define the code little letter.
-            return true; 
-        }
 
-        public Customer Retrieve(int customerID)
-        {
-            // Code will be added later
-            return new Customer(); 
-        }
-
-        public List<Customer> Retrieve()
-        {
-            // Code will be added later
-            return new List<Customer>();
-        }
         public bool validate()
         {
 
