@@ -8,11 +8,16 @@ namespace ACM.BusinessLogic
 {
     class Product
     {
+        public int _prodID;
         public Product()
         {
             // Default constructor
         }
 
+        public Product(int prodID)
+        {
+            _prodID = prodID;
+        }
 
     }
 }
