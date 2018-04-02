@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ACM.BusinessLogic
 {
-    class CustomerRepository
+    public class CustomerRepository
     {
 
         public Customer Retrieve(int customerId)
